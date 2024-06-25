@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio tabela 2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .cor{
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="cor">
+                <th rowspan="2"  scope="colgroup">Área</th>
+                <th rowspan="2"  scope="colgroup">Disciplina</th>
+                <th colspan="2"  scope="colgroup">Notas</th>
+                <th rowspan="2"  scope="colgroup">Média</th>
+            </tr>
+            <tr class="cor">
+                <th  scope="colgroup">Notas1</th>
+                <th  scope="colgroup">Notas2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matématica</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>Fisica</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="cor">  Media de Exatas</th>
+                <td class="cor">10</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Exatas</th>
+                <td>História</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            
+            <tr>
+                <td>Geografia</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" class="cor">  Media de Exatas</th>
+                    <td class="cor">10</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
